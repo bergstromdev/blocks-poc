@@ -1,0 +1,67 @@
+@font-face {
+	font-family: 'Milanesa Serif';
+	src: local("MilanesaSerifLight"), url('./fonts/Milanesa Serif Light.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Indigo Italic';
+	src: local("IndigoItalic"), url('./fonts/Indigo Antiqua Pro Text Italic.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'Indigo Regular';
+	src: local("IndigoRegular"), url('./fonts/Indigo Antiqua Pro Text Regular.woff2') format('woff2');
+}
+@font-face {
+	font-family: 'SackersGothic';
+	src: local("SackersGothic"), url('./fonts/Indigo Antiqua Pro Text Regular.woff2') format('woff2');
+}
+
+:root {
+	--color-branding-pistage: #a5983a;
+	--color-branding-pink: #f8cfd1;
+	--color-branding-passion: #fd3a2f;
+	--color-branding-vespa: #b7dedc;
+	--color-branding-off-white: #f6f5ee;
+	--color-branding-black: #000000;
+
+	--color-text-black: #000000;
+	--color-text-grey: #7a7c7f;
+	--color-text-grey-light: #dddddd;
+	--color-text-white: #ffffff;
+
+	--color-background-black: #000000;
+	--color-background-black-light: #333333;
+	--color-background-black-20: rgba(0, 0, 0, 0.2);
+	--color-background-grey: #e0e0e0;
+	--color-background-grey-light: #eff1f3;
+	--color-background-off-white: #f6f5ee;
+
+	--color-system-red: #d30000;
+	--color-system-green: #00d371;
+	--color-system-blue: #004ad3;
+
+	--font-family-heading-1: 'Milanesa Serif', serif;
+	--font-family-heading-2: 'Indigo Italic', sans-serif;
+	--font-family-body: 'Indigo Regular', sans-serif;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
